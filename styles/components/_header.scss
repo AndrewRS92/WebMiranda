@@ -1,4 +1,53 @@
 .header {
-    background-color: black;
+    background-color: white;
+    color: black;
     padding: 1rem;
+    border-bottom: 1px solid #ccc;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        padding: 0 1rem;
+    }
+
+    .menu__button {
+        background: none;
+        border: none;
+        cursor: pointer;
+
+        img {
+            height: 1.5rem; 
+        }
+    }
+
+    .header__title {
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+
+        .header__logo__img {
+            height: 2rem; 
+            margin-right: 1.5rem; 
+        }
+
+    }
+
+    .header__icons {
+        display: flex;
+        align-items: center;
+
+        .user__button,
+        .search__button {
+            background: none;
+            border: none;
+            cursor: pointer;
+            margin-left: 0.5rem;
+
+            img {
+                height: 2rem; 
+            }
+        }
+    }
 }

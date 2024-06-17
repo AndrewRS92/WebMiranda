@@ -3,21 +3,83 @@ html {
 }
 
 .header {
-  background-color: black;
+  background-color: white;
+  color: black;
   padding: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+.header .menu__button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.header .menu__button img {
+  height: 1.5rem;
+}
+.header .header__title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header .header__title .header__logo__img {
+  height: 2rem;
+  margin-right: 1.5rem;
+}
+.header .header__icons {
+  display: flex;
+  align-items: center;
+}
+.header .header__icons .user__button,
+.header .header__icons .search__button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: 0.5rem;
+}
+.header .header__icons .user__button img,
+.header .header__icons .search__button img {
+  height: 2rem;
 }
 
 .footer {
   background-color: bisque;
+  color: black;
   padding: 1rem;
+}
+.footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+.footer p {
+  margin: 0;
+  text-align: center;
 }
 
 .about {
   padding: 1rem;
 }
-.about h1 {
-  color: black;
+.about .container {
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+.about h2 {
+  color: #333;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+.about p {
   font-size: 1rem;
+  color: #666;
+  text-align: justify;
 }
 
 /*# sourceMappingURL=main.css.map */
