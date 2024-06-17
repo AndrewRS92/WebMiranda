@@ -1,0 +1,23 @@
+html {
+  font-size: 62.5%;
+}
+
+.header {
+  background-color: black;
+  padding: 1rem;
+}
+
+.footer {
+  background-color: bisque;
+  padding: 1rem;
+}
+
+.about {
+  padding: 1rem;
+}
+.about h1 {
+  color: black;
+  font-size: 1rem;
+}
+
+/*# sourceMappingURL=main.css.map */
