@@ -296,35 +296,19 @@
 
 .sectionServices {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
   padding: 2rem 1rem;
 }
-.sectionServices .serviceRow {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  gap: 2rem;
-}
-.sectionServices .serviceRow .service {
+.sectionServices .service {
   flex: 1 1 45%;
-  max-width: 15rem;
   margin: 1rem;
   text-align: center;
 }
-.sectionServices .serviceRow .service img {
+.sectionServices .service img {
   width: 100%;
   height: auto;
 }
-.sectionServices .serviceMaplux {
+.sectionServices .service:nth-child(3) {
   flex: 1 1 100%;
-  max-width: 25rem;
-  margin: 1rem;
-  text-align: center;
-}
-.sectionServices .serviceMaplux img {
-  width: 100%;
-  height: auto;
-}
-
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=styles.css.map */
