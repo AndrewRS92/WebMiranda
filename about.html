@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hotel Miranda</title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 </head>
 <body>
     <header class="header">
@@ -58,9 +59,13 @@
                 </div>
             </div>
             <div class="serviceMaplux">
-                <img src="images/maplux.svg" alt="City Guide and Luxury Room">
+                <div class="service">
+                    <img src="images/maplux.svg" alt="City Guide and Luxury Room">
+                </div>
             </div>
         </section>
+        
+
 
         <section class="sectionInfo">
             <div class="infoContainer">
@@ -78,8 +83,42 @@
             </div>
         </section>
         
+        <section class="sectionSlider">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="slideContent">
+                            <h3>Facilities</h3>
+                            <h2>Core Features</h2>
+                            <div class="slideInfo">
+                                <span>01</span>
+                                <img src="images/icnoSlider1.svg" alt="Icon 1">
+                                <h4>Have High Rating</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Añade más slides aquí -->
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+
 
 
     </main>
 </body>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+    });
+</script>
+
+
 </html>

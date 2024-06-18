@@ -48,7 +48,7 @@
         display: flex;
         justify-content: center;
         width: 100%;
-        gap: 2rem; 
+        gap: 2rem;
 
         .service {
             flex: 1 1 45%;
@@ -63,16 +63,25 @@
     }
 
     .serviceMaplux {
-        flex: 1 1 100%;
-        margin: 1rem;
-        text-align: center;
+        display: flex;  
+        justify-content: center;
+        width: 100%;
+        gap: 2rem;
 
-        img {
-            width: 100%;
-            height: auto;
+        .service {
+            flex: 1 1 45%;  
+            margin: 1rem;
+            text-align: center;
+
+            img {
+                width: 100%;
+                height: auto;
+            }
         }
     }
 }
+
+
 
 
 .sectionInfo {
@@ -142,3 +151,99 @@
         }
     }
 }
+
+
+.sectionSlider {
+    background-color: #333;
+    color: white;
+    padding: 2rem 1rem;
+
+    .swiper-container {
+        width: 100%;
+        max-width: 37.5rem; // 600px en rem
+        margin: 0 auto;
+    }
+
+    .swiper-slide {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 2rem;
+
+        .slideContent {
+            width: 100%; // Asegura que el contenido ocupe todo el ancho del contenedor
+            padding: 2rem;
+            box-sizing: border-box;
+
+            h3 {
+                font-family: 'Archivo', sans-serif;
+                font-size: 0.875rem;
+                font-weight: 700;
+                line-height: 1.25rem;
+                letter-spacing: 0.1rem;
+                text-transform: uppercase;
+                color: white;
+            }
+
+            h2 {
+                font-family: 'Old Standard TT', serif;
+                font-size: 2.25rem;
+                font-weight: 400;
+                line-height: 2.75rem;
+                margin: 0.5rem 0;
+            }
+
+            .slideInfo {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                span {
+                    font-family: 'Old Standard TT', serif;
+                    font-size: 5rem;
+                    font-weight: 700;
+                    line-height: 5rem;
+                    color: rgba(255, 255, 255, 0.1);
+                }
+
+                img {
+                    width: 4rem;
+                    height: auto;
+                    margin-bottom: 1rem;
+                }
+
+                h4 {
+                    font-family: 'Old Standard TT', serif;
+                    font-size: 1.25rem;
+                    font-weight: 400;
+                    line-height: 1.75rem;
+                    color: white;
+                    margin-bottom: 1rem;
+                }
+
+                p {
+                    font-family: 'Old Standard TT', serif;
+                    font-size: 1rem;
+                    line-height: 1.5rem;
+                    color: #ddd;
+                }
+            }
+        }
+    }
+
+    .swiper-pagination {
+        bottom: 10px !important;
+
+        .swiper-pagination-bullet {
+            background-color: #ffcc99;
+        }
+
+        .swiper-pagination-bullet-active {
+            background-color: white;
+        }
+    }
+}
+   
+
