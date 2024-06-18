@@ -231,4 +231,64 @@
 .sectionServices .serviceMaplux img {
   width: 100%;
   height: auto;
+}
+
+.sectionInfo {
+  padding: 2rem 1rem;
+}
+.sectionInfo .infoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1.5rem;
+}
+.sectionInfo .infoImage {
+  flex: 1;
+}
+.sectionInfo .infoImage img {
+  width: 100%;
+  height: auto;
+  max-width: 20rem;
+}
+.sectionInfo .infoText {
+  flex: 1;
+  padding: 1rem;
+  text-align: left;
+}
+.sectionInfo .infoText .infoSubtitle {
+  font-family: "Archivo", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.25rem;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  color: #999;
+}
+.sectionInfo .infoText .infoTitle {
+  font-family: "Old Standard TT", serif;
+  font-size: 1.75rem;
+  font-weight: 400;
+  line-height: 2.25rem;
+  margin: 0.5rem 0;
+}
+.sectionInfo .infoText .infoDescription {
+  font-family: "Old Standard TT", serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+.sectionInfo .infoText .infoButton {
+  background-color: #d3b98b;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-family: "Archivo", sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.sectionInfo .infoText .infoButton:hover {
+  background-color: #bda173;
 }/*# sourceMappingURL=about.css.map */
