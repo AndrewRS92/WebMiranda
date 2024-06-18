@@ -1,7 +1,5 @@
-html {
-  font-size: 62.5%;
-}
-
+@import url("https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@700&display=swap");
 .header {
   background-color: white;
   color: black;
@@ -21,7 +19,7 @@ html {
   cursor: pointer;
 }
 .header .menu__button img {
-  height: 1.5rem;
+  height: 1rem;
 }
 .header .header__title {
   display: flex;
@@ -30,11 +28,12 @@ html {
 }
 .header .header__title .header__logo__img {
   height: 2rem;
-  margin-right: 1.5rem;
+  text-align: right;
 }
 .header .header__icons {
   display: flex;
-  align-items: center;
+  align-items: left;
+  text-align: right;
 }
 .header .header__icons .user__button,
 .header .header__icons .search__button {
@@ -42,25 +41,11 @@ html {
   border: none;
   cursor: pointer;
   margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 .header .header__icons .user__button img,
 .header .header__icons .search__button img {
   height: 2rem;
-}
-
-.footer {
-  background-color: bisque;
-  color: black;
-  padding: 1rem;
-}
-.footer .container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 1rem;
-}
-.footer p {
-  margin: 0;
-  text-align: center;
 }
 
 .about {
@@ -80,6 +65,32 @@ html {
   font-size: 1rem;
   color: #666;
   text-align: justify;
+}
+
+.sectionHeader {
+  background-color: #333;
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+.sectionHeader__content {
+  margin-bottom: 2rem;
+}
+.sectionHeader__subtitle {
+  font-family: Archivo;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  line-height: 1.125rem;
+  letter-spacing: 0.175rem;
+  text-align: left;
+}
+.sectionHeader__title {
+  font-family: "Old Standard TT", serif;
+  font-size: 3.5rem;
+  font-weight: 400;
+  line-height: 3.75rem;
+  letter-spacing: -0.075rem;
+  text-align: left;
 }
 
 /*# sourceMappingURL=main.css.map */

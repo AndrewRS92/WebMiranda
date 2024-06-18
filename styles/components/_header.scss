@@ -18,7 +18,7 @@
         cursor: pointer;
 
         img {
-            height: 1.5rem; 
+            height: 1rem; 
         }
     }
 
@@ -29,21 +29,22 @@
 
         .header__logo__img {
             height: 2rem; 
-            margin-right: 1.5rem; 
+            text-align: right; 
         }
 
     }
 
     .header__icons {
         display: flex;
-        align-items: center;
-
+        align-items: left;
+        text-align: right;
         .user__button,
         .search__button {
             background: none;
             border: none;
             cursor: pointer;
             margin-left: 0.5rem;
+            margin-right: 0.5rem;
 
             img {
                 height: 2rem; 
