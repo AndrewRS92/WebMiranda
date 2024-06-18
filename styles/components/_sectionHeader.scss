@@ -1,8 +1,7 @@
-.sectionHeader{
+@mixin sectionHeaderStyles{
     background-color: #333;
     color: white;
     padding: 2rem 1rem;
-    text-align: center; 
 
     &__content{
         margin-bottom: 2rem;
@@ -23,8 +22,33 @@
         font-size: 3.5rem; 
         font-weight: 400;
         line-height: 3.75rem; 
-        letter-spacing: -0.075rem; 
         text-align: left;
     }
 
+    .sectionNav {
+        display: inline-block;
+        float: right;
+        font-size: 1.125rem; 
+        background-color: #fff;
+        padding: 0.5rem;
+
+        &__link,
+        &__current {
+            color: black;
+            text-decoration: none;
+        }
+
+        &__link:hover {
+            text-decoration: underline;
+        }
+
+        &__current {
+            font-weight: bold;
+            color: #ffcc99;
+        }
+    }
+
+}
+.sectionHeader {
+    @include sectionHeaderStyles;
 }
