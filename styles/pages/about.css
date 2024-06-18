@@ -224,11 +224,17 @@
   height: auto;
 }
 .sectionServices .serviceMaplux {
-  flex: 1 1 100%;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 2rem;
+}
+.sectionServices .serviceMaplux .service {
+  flex: 1 1 45%;
   margin: 1rem;
   text-align: center;
 }
-.sectionServices .serviceMaplux img {
+.sectionServices .serviceMaplux .service img {
   width: 100%;
   height: auto;
 }
@@ -291,4 +297,99 @@
 }
 .sectionInfo .infoText .infoButton:hover {
   background-color: #bda173;
+}
+
+.sectionSlider {
+  background-color: #333;
+  color: white;
+  padding: 2rem 1rem;
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+.sectionSlider .swiper-container {
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+.sectionSlider .swiper-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+.sectionSlider .swiper-slide .slideContent {
+  width: 100%;
+  padding: 2rem 1rem;
+  box-sizing: border-box;
+}
+.sectionSlider .swiper-slide .slideContent h3 {
+  font-family: "Archivo", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.25rem;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  color: white;
+  text-align: left;
+}
+.sectionSlider .swiper-slide .slideContent h2 {
+  font-family: "Old Standard TT", serif;
+  font-size: 2.25rem;
+  font-weight: 400;
+  line-height: 2.75rem;
+  margin: 0.5rem 0;
+}
+.sectionSlider .swiper-slide .slideContent .slideInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+.sectionSlider .swiper-slide .slideContent .slideInfo span {
+  font-family: "Old Standard TT", serif;
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 5rem;
+  color: rgba(255, 255, 255, 0.1);
+}
+.sectionSlider .swiper-slide .slideContent .slideInfo img {
+  width: 4rem;
+  height: auto;
+  margin-bottom: 1rem;
+}
+.sectionSlider .swiper-slide .slideContent .slideInfo h4 {
+  font-family: "Old Standard TT", serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.75rem;
+  color: white;
+  margin-bottom: 1rem;
+}
+.sectionSlider .swiper-slide .slideContent .slideInfo p {
+  font-family: "Old Standard TT", serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #ddd;
+}
+.sectionSlider .swiper-pagination {
+  position: absolute;
+  bottom: 10px !important;
+  text-align: center;
+  left: 0;
+  right: 0;
+  margin-inline: auto;
+}
+.sectionSlider .swiper-pagination .swiper-pagination-bullet {
+  background-color: #ffcc99;
+  opacity: 1;
+}
+.sectionSlider .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: white;
+  opacity: 1;
 }/*# sourceMappingURL=about.css.map */

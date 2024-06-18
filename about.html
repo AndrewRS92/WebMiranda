@@ -64,8 +64,6 @@
                 </div>
             </div>
         </section>
-        
-
 
         <section class="sectionInfo">
             <div class="infoContainer">
@@ -82,6 +80,7 @@
                 </div>
             </div>
         </section>
+
         
         <section class="sectionSlider">
             <div class="swiper-container">
@@ -92,7 +91,7 @@
                             <h2>Core Features</h2>
                             <div class="slideInfo">
                                 <span>01</span>
-                                <img src="images/icon1.svg" alt="Icon 1">
+                                <img src="images/icnoSlider1.svg" alt="Icon 1">
                                 <h4>Have High Rating</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             </div>
@@ -137,7 +136,7 @@
                     <div class="swiper-slide">
                         <div class="slideContent">
                             <h3>Facilities</h3>
-                            <h2>Core Features</h2>
+                            <h2>Core Features</h4>
                             <div class="slideInfo">
                                 <span>05</span>
                                 <img src="images/card.svg" alt="Icon 5">
@@ -162,22 +161,21 @@
                 <div class="swiper-pagination"></div>
             </div>
         </section>
-        
-
-
-
-
     </main>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            loop: true,
+            slidesPerView: 1,
+            centeredSlides: true,
+            spaceBetween: 30,
+            grabCursor: true,
+        });
+    </script>
+
 </body>
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-<script>
-    var swiper = new Swiper('.swiper-container', {
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
-    });
-</script>
-
-
 </html>
