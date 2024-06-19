@@ -1,0 +1,8 @@
+@import '../components/header';
+@import '../components/sectionHeader';
+@import '../components/mixins';
+@import '../components/footer';
+
+.header {
+    @include headerStyles;
+}
