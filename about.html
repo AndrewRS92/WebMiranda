@@ -83,7 +83,7 @@
 
 
         <section class="sectionSlider">
-            <div class="swiper-container">
+            <div class="swiper swiper1">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="slideContent">
@@ -158,7 +158,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="swiper-pagination"></div>
+                <div class="swiper-pagination swiper-pagination1"></div>
             </div>
         </section>
 
@@ -193,28 +193,26 @@
                 </div>
             </div>
             <div class="counterContent"></div>
-            <div class="extraImage">
-                <img src="path/to/extra-image.png" alt="Extra Image">
-            </div>
+            
         </div>
         
-        <div class="swiper-container">
+        <div class="swiper swiper2">
             <div class="swiper-wrapper">
                 <div class="swiper-slide"><img src="images/hotel1.jpg" alt="Image 1"></div>
                 <div class="swiper-slide"><img src="images/hotel2.jpg" alt="Image 2"></div>
             </div>
-            <div class="swiper-pagination"></div>
+            <div class="swiper-pagination swiper-pagination2"></div>
         </div>
-
+    
 
     </main>
 
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script>
-        var swiper = new Swiper('.swiper-container', {
+        var swiper = new Swiper('.swiper1', {
             pagination: {
-                el: '.swiper-pagination',
+                el: '.swiper-pagination1',
                 clickable: true,
             },
             loop: true,
@@ -224,6 +222,19 @@
             grabCursor: true,
         });
     </script>
+        <script>
+            var swiperImage = new Swiper('.swiper2', {
+                pagination: {
+                    el: '.swiper-pagination2',
+                    clickable: true,
+                },
+                loop: true,
+                slidesPerView: 1,
+                centeredSlides: true,
+                spaceBetween: 30,
+                grabCursor: true,
+            });
+        </script>
 
 </body>
 </html>
