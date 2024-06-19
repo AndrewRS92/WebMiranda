@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Archivo:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@700&display=swap");
 .header {
   background-color: white;
   color: black;
@@ -178,6 +184,10 @@
 .sectionHeader .sectionNav__current {
   font-weight: bold;
   color: #ffcc99;
+}
+
+.footerStyles {
+  background-image: url("/images/footer-bg.svg");
 }
 
 .header {
@@ -601,6 +611,52 @@
 .swiper2 .swiper-pagination2 .swiper-pagination-bullet-active {
   background: #EDEDED;
   opacity: 1;
+}
+
+.footer {
+  background-image: url("/images/footer-bg.svg");
+  background-size: cover;
+  background-position: center;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+.footer__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+.footer .footer__logo {
+  margin-bottom: 1rem;
+}
+.footer .infoDescription {
+  font-family: "Old Standard TT", serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+  text-align: left;
+  margin: 0 1rem 1.5rem 1rem;
+}
+.footer .footerSocial {
+  margin-bottom: 1rem;
+}
+.footer__title {
+  font-family: "Old Standard TT", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #222222;
+}
+.footer__contact {
+  display: l;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+.footer__contact .footer__icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 0.5rem;
 }
 
 /*# sourceMappingURL=main.css.map */
