@@ -6,3 +6,6 @@
 .header {
     @include headerStyles;
 }
+.sectionHeader {
+    @include sectionHeaderStyles;
+}
