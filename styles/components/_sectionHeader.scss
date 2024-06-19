@@ -1,0 +1,54 @@
+@mixin sectionHeaderStyles{
+    background-color: #333;
+    color: white;
+    padding: 2rem 1rem;
+
+    &__content{
+        margin-bottom: 2rem;
+    }
+
+    &__subtitle {
+    font-family: Archivo;
+    font-size: 0.8125rem;
+    font-weight: 700;
+    line-height: 1.125rem;
+    letter-spacing: 0.175rem;
+    text-align: left;
+
+    }
+
+    &__title {
+        font-family: 'Old Standard TT', serif;
+        font-size: 3.5rem; 
+        font-weight: 400;
+        line-height: 3.75rem; 
+        text-align: left;
+    }
+
+    .sectionNav {
+        display: inline-block;
+        float: right;
+        font-size: 1.125rem; 
+        background-color: #fff;
+        padding: 0.5rem;
+
+        &__link,
+        &__current {
+            color: black;
+            text-decoration: none;
+        }
+
+        &__link:hover {
+            text-decoration: underline;
+        }
+
+        &__current {
+            font-weight: bold;
+            color: #ffcc99;
+        }
+    }
+
+}
+.sectionHeader {
+    @include sectionHeaderStyles;
+}

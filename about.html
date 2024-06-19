@@ -3,20 +3,238 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About - Hotel Miranda</title>
+    <title>Hotel Miranda</title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 </head>
 <body>
-    <header>
-        <div class="header">Header content</div>
+    <header class="header">
+        <div class="header__container">
+            <button class="menu__button">
+                <img src="images/menuBtn.png" alt="Menu">
+            </button>
+            <div class="header__title">
+                <img src="images/logo.svg" alt="H Logo" class="header__logo__img"> 
+                <img src="images/logo-text.svg" alt="Hotel Miranda">
+            </div>
+            <div class="header__icons">
+                <button class="user__button">
+                    <img src="images/personIcon.png" alt="User">
+                </button>
+                <button class="search__button">
+                    <img src="images/searchIcon.png" alt="Search">
+                </button>
+            </div>
     </header>
+
+    <section class="sectionHeader">
+        <div class="sectionHeader__content">
+            <p class="sectioHeader__subtitle">THE ULTIMATE LUXURY</p>
+            <h2 class="sectionHeader__title">About Us</h2>
+        </div>
+        <nav class="sectionNav">
+            <a href="#" class="sectionNav__link">Home  |</a> |
+            <span class="sectionNav__current">About</span>
+        </nav>
+    </section>
+
+    <section class="sectionVideoText">
+        <div class="videoContainer">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/eAW1TNnjrzs?si=AzXEJqmo51INUzgK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="textContainer">
+            <p>Hello. Our hotel has been present for over 20 years. We make the best for all our customers.</p>
+        </div>
+    </section>
+
+    
     <main>
-        <section class="about">
-            <h1>About Us</h1>
+        <section class="sectionServices">
+            <div class="serviceRow">
+                <div class="service">
+                    <img src="images/Breakfast.svg" alt="Breakfast">
+                </div>
+                <div class="service">
+                    <img src="images/Airport pickup.svg" alt="Airport Pickup">
+                </div>
+            </div>
+            <div class="serviceMaplux">
+                <div class="service">
+                    <img src="images/maplux.svg" alt="City Guide and Luxury Room">
+                </div>
+            </div>
         </section>
+
+        <section class="sectionInfo">
+            <div class="infoContainer">
+                <div class="infoImage">
+                    <img src="images/restaurante.jpg" alt="Restaurant">
+                </div>
+                <div class="infoText">
+                    <h3 class="infoSubtitle">Restaurant</h3>
+                    <h2 class="infoTitle">Get Restaurant Facilities & Many Other More</h2>
+                    <p class="infoDescription">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tem por incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
+                    </p>
+                    <button class="infoButton">Take a Tour</button>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="sectionSlider">
+            <div class="swiper swiper1">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="slideContent">
+                            <h3>Facilities</h3>
+                            <h2>Core Features</h2>
+                            <div class="slideInfo">
+                                <span>01</span>
+                                <img src="images/icnoSlider1.svg" alt="Icon 1">
+                                <h4>Have High Rating</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slideContent">
+                            <h3>Facilities</h3>
+                            <h2>Core Features</h2>
+                            <div class="slideInfo">
+                                <span>02</span>
+                                <img src="images/reloj.svg" alt="Icon 2">
+                                <h4>Quiet Hours</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slideContent">
+                            <h3>Facilities</h3>
+                            <h2>Core Features</h2>
+                            <div class="slideInfo">
+                                <span>03</span>
+                                <img src="images/map.svg" alt="Icon 3">
+                                <h4>Best Locations</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slideContent">
+                            <h3>Facilities</h3>
+                            <h2>Core Features</h2>
+                            <div class="slideInfo">
+                                <span>04</span>
+                                <img src="images/relojX.svg" alt="Icon 4">
+                                <h4>Free Cancellation</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slideContent">
+                            <h3>Facilities</h3>
+                            <h2>Core Features</h4>
+                            <div class="slideInfo">
+                                <span>05</span>
+                                <img src="images/card.svg" alt="Icon 5">
+                                <h4>Payment Options</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slideContent">
+                            <h3>Facilities</h3>
+                            <h2>Core Features</h2>
+                            <div class="slideInfo">
+                                <span>06</span>
+                                <img src="images/pin.svg" alt="Icon 6">
+                                <h4>Special Offers</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination swiper-pagination1"></div>
+            </div>
+        </section>
+
+
+        <div class="counterSection">
+            <h3>Counter</h3>
+            <h2>Some Fun Facts</h2>
+            <div class="counterContent">
+                <div class="counterItem">
+                    <img src="images/personLike.svg" alt="Icon 1">
+                    <div class="counterNumberContainer">
+                        <div class="counterNumber">8000</div>
+                        <div class="counterLabel">Happy Users</div>
+                    </div>
+                    <img class="arrow" src="images/arrow.svg" alt="Arrow">
+                </div>
+                <div class="counterItem">
+                    <img src="images/like.svg" alt="Icon 2">
+                    <div class="counterNumberContainer">
+                        <div class="counterNumber">10M</div>
+                        <div class="counterLabel">Reviews & Appreciate</div>
+                    </div>
+                    <img class="arrow" src="images/arrow.svg" alt="Arrow">
+                </div>
+                <div class="counterItem">
+                    <img src="images/earth.svg" alt="Icon 3">
+                    <div class="counterNumberContainer">
+                        <div class="counterNumber">100</div>
+                        <div class="counterLabel">Country Coverage</div>
+                    </div>
+                    <img class="arrow" src="images/arrow.svg" alt="Arrow">
+                </div>
+            </div>
+            <div class="counterContent"></div>
+            
+        </div>
+        
+        <div class="swiper swiper2">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="images/hotel1.jpg" alt="Image 1"></div>
+                <div class="swiper-slide"><img src="images/hotel2.jpg" alt="Image 2"></div>
+            </div>
+            <div class="swiper-pagination swiper-pagination2"></div>
+        </div>
+    
+
     </main>
-    <footer>
-        <div class="footer">Footer content</div>
-    </footer>
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper1', {
+            pagination: {
+                el: '.swiper-pagination1',
+                clickable: true,
+            },
+            loop: true,
+            slidesPerView: 1,
+            centeredSlides: true,
+            spaceBetween: 30,
+            grabCursor: true,
+        });
+    </script>
+        <script>
+            var swiperImage = new Swiper('.swiper2', {
+                pagination: {
+                    el: '.swiper-pagination2',
+                    clickable: true,
+                },
+                loop: true,
+                slidesPerView: 1,
+                centeredSlides: true,
+                spaceBetween: 30,
+                grabCursor: true,
+            });
+        </script>
+
 </body>
 </html>

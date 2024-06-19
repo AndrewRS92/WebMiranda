@@ -396,15 +396,12 @@
   color: white;
   padding: 2rem 1rem;
   position: relative;
-  padding: 0;
-  margin: 0;
 }
 .sectionSlider .swiper-container {
   width: 100%;
+  max-width: 37.5rem;
   margin: 0 auto;
   height: 100%;
-  padding: 0;
-  margin: 0;
 }
 .sectionSlider .swiper-slide {
   display: flex;
@@ -412,12 +409,11 @@
   align-items: flex-start;
   justify-content: center;
   text-align: left;
-  padding: 0;
-  margin: 0;
+  padding: 2rem;
 }
 .sectionSlider .swiper-slide .slideContent {
   width: 100%;
-  padding: 2rem 1rem;
+  padding: 2rem;
   box-sizing: border-box;
 }
 .sectionSlider .swiper-slide .slideContent h3 {
@@ -472,10 +468,9 @@
 .sectionSlider .swiper-pagination {
   position: absolute;
   bottom: 10px !important;
+  left: 50%;
+  transform: translateX(-50%);
   text-align: center;
-  left: 0;
-  right: 0;
-  margin-inline: auto;
 }
 .sectionSlider .swiper-pagination .swiper-pagination-bullet {
   background-color: #ffcc99;
@@ -484,123 +479,4 @@
 .sectionSlider .swiper-pagination .swiper-pagination-bullet-active {
   background-color: white;
   opacity: 1;
-}
-
-.counterSection {
-  background-color: #f8f8f8;
-  color: black;
-  padding: 2rem 1rem;
-  text-align: left;
-}
-
-.counterSection h3 {
-  font-family: "Archivo", sans-serif;
-  font-size: 0.875rem;
-  font-weight: 700;
-  letter-spacing: 0.1rem;
-  text-transform: uppercase;
-  color: #333;
-  margin-bottom: 0.5rem;
-}
-
-.counterSection h2 {
-  font-family: "Old Standard TT", serif;
-  font-size: 2.25rem;
-  font-weight: 400;
-  line-height: 2.75rem;
-  margin: 0.5rem 0;
-}
-
-.counterContent {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 2rem;
-}
-
-.counterItem {
-  display: flex;
-  align-items: center;
-  margin: 1rem 0;
-  width: 100%;
-  box-sizing: border-box;
-  justify-content: space-between;
-}
-
-.counterItem img {
-  width: 4rem;
-  height: auto;
-  margin-right: 1rem;
-}
-
-.counterNumberContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin-left: 1rem;
-}
-
-.counterNumber {
-  font-family: "Old Standard TT", serif;
-  font-size: 2rem;
-  font-weight: 700;
-  color: #333;
-  display: block;
-}
-
-.counterLabel {
-  font-family: "Old Standard TT", serif;
-  font-size: 1rem;
-  color: #666;
-  margin-top: 0.25rem;
-}
-
-.arrow {
-  width: 1rem;
-  height: auto;
-  margin-left: auto;
-}
-
-.swiper2 {
-  width: 100%;
-  height: 25rem;
-}
-.swiper2 .swiper-wrapper {
-  display: flex;
-}
-.swiper2 .swiper-slide {
-  text-align: center;
-  font-size: 1.125rem;
-  background: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.swiper2 .swiper-slide img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-.swiper2 .swiper-pagination2 {
-  position: absolute;
-  text-align: center;
-  bottom: 0rem;
-  left: 0;
-  width: 100%;
-  z-index: 10;
-}
-.swiper2 .swiper-pagination2 .swiper-pagination-bullet {
-  width: 0.5rem;
-  height: 0.5rem;
-  display: inline-block;
-  border-radius: 50%;
-  background: #BEAD8E;
-  opacity: 0.7;
-  margin: 0 0.3rem;
-}
-.swiper2 .swiper-pagination2 .swiper-pagination-bullet-active {
-  background: #EDEDED;
-  opacity: 1;
-}
-
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=styles.css.map */

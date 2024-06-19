@@ -1,4 +1,58 @@
-.header {
-    background-color: black;
+@mixin headerStyles {
+    background-color: white;
+    color: black;
     padding: 1rem;
+    border-bottom: 1px solid #ccc;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        padding: 0 1rem;
+    }
+
+    .menu__button {
+        background: none;
+        border: none;
+        cursor: pointer;
+
+        img {
+            height: 1rem; 
+            
+        }
+    }
+
+    .header__title {
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+
+        .header__logo__img {
+            height: 2rem; 
+            text-align: right; 
+        }
+
+    }
+
+    .header__icons {
+        display: flex;
+        align-items: left;
+        text-align: right;
+        .user__button,
+        .search__button {
+            background: none;
+            border: none;
+            cursor: pointer;
+            margin-left: 0.5rem;
+            margin-right: 0.5rem;
+
+            img {
+                height: 2rem; 
+            }
+        }
+    }
+}
+.header {
+    @include headerStyles;
 }

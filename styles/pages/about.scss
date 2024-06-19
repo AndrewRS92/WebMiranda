@@ -1,7 +1,388 @@
-.about {
-    padding: 1rem;
-    h1 {
-        color: black;
-        font-size: 1rem;
+@import '../components/header';
+@import '../components/sectionHeader';
+
+.header {
+    @include headerStyles;
+}
+
+.sectionHeader {
+    @include sectionHeaderStyles;
+}
+
+.sectionVideoText {
+    padding: 2rem 1rem;
+    text-align: center;
+
+    .videoContainer {
+        position: relative;
+        width: 100%;
+        margin: 0 auto;
+
+        iframe {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    }
+
+    .textContainer {
+        margin-top: 2rem;
+
+        p {
+            font-family: 'Old Standard TT', serif;
+            font-size: 1.25rem;
+            line-height: 1.75rem;
+            color: #333;
+        }
+    }
+}
+
+
+.sectionServices {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 1rem;
+
+    .serviceRow {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        gap: 2rem;
+
+        .service {
+            flex: 1 1 45%;
+            margin: 1rem;
+            text-align: center;
+
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+
+    .serviceMaplux {
+        display: flex;  
+        justify-content: center;
+        width: 100%;
+        gap: 2rem;
+
+        .service {
+            flex: 1 1 45%;  
+            margin: 1rem;
+            text-align: center;
+
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+}
+
+
+
+
+.sectionInfo {
+    padding: 2rem 1rem;
+
+    .infoContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 1.5rem;
+    }
+
+    .infoImage {
+        flex: 1;
+        img {
+            width: 100%;
+            height: auto;
+            max-width: 20rem; 
+        }
+    }
+
+    .infoText {
+        flex: 1;
+        padding: 1rem;
+        text-align: left;
+
+        .infoSubtitle {
+            font-family: 'Archivo', sans-serif;
+            font-size: 0.875rem;
+            font-weight: 700;
+            line-height: 1.25rem;
+            letter-spacing: 0.1rem;
+            text-transform: uppercase;
+            color: #999;
+        }
+
+        .infoTitle {
+            font-family: 'Old Standard TT', serif;
+            font-size: 1.75rem;
+            font-weight: 400;
+            line-height: 2.25rem;
+            margin: 0.5rem 0;
+        }
+
+        .infoDescription {
+            font-family: 'Old Standard TT', serif;
+            font-size: 1rem;
+            line-height: 1.5rem;
+            color: #333;
+            margin-bottom: 1.5rem;
+        }
+
+        .infoButton {
+            background-color: #d3b98b;
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            font-family: 'Archivo', sans-serif;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+
+            &:hover {
+                background-color: #bda173;
+            }
+        }
+    }
+}
+
+
+.sectionSlider {
+    background-color: #333;
+    color: white;
+    padding: 2rem 1rem;
+    position: relative; 
+    padding: 0;
+    margin: 0;
+    .swiper-container {
+        width: 100%;
+        margin: 0 auto;
+        height: 100%; 
+        padding: 0;
+        margin: 0;
+    }
+
+    .swiper-slide {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; 
+        justify-content: center; 
+        text-align: left; 
+        padding: 0;
+        margin: 0;
+
+        .slideContent {
+            width: 100%; 
+            padding: 2rem 1rem;
+            box-sizing: border-box;
+
+            h3 {
+                font-family: 'Archivo', sans-serif;
+                font-size: 0.875rem;
+                font-weight: 700;
+                line-height: 1.25rem;
+                letter-spacing: 0.1rem;
+                text-transform: uppercase;
+                color: white;
+                text-align: left;
+            }
+
+            h2 {
+                font-family: 'Old Standard TT', serif;
+                font-size: 2.25rem;
+                font-weight: 400;
+                line-height: 2.75rem;
+                margin: 0.5rem 0;
+            }
+
+            .slideInfo {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start; 
+                text-align: left; 
+
+                span {
+                    font-family: 'Old Standard TT', serif;
+                    font-size: 5rem;
+                    font-weight: 700;
+                    line-height: 5rem;
+                    color: rgba(255, 255, 255, 0.1);
+                }
+
+                img {
+                    width: 4rem;
+                    height: auto;
+                    margin-bottom: 1rem;
+                }
+
+                h4 {
+                    font-family: 'Old Standard TT', serif;
+                    font-size: 1.25rem;
+                    font-weight: 400;
+                    line-height: 1.75rem;
+                    color: white;
+                    margin-bottom: 1rem;
+                }
+
+                p {
+                    font-family: 'Old Standard TT', serif;
+                    font-size: 1rem;
+                    line-height: 1.5rem;
+                    color: #ddd;
+                }
+            }
+        }
+    }
+
+    .swiper-pagination {
+        position: absolute;
+        bottom: 10px !important;
+        text-align: center;
+        left: 0;
+        right: 0;
+        margin-inline: auto; 
+
+        .swiper-pagination-bullet {
+            background-color: #ffcc99;
+            opacity: 1;
+        }
+
+        .swiper-pagination-bullet-active {
+            background-color: white;
+            opacity: 1;
+        }
+    }
+}
+
+
+.counterSection {
+    background-color: #f8f8f8;
+    color: black;
+    padding: 2rem 1rem;
+    text-align: left;
+}
+
+.counterSection h3 {
+    font-family: 'Archivo', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.counterSection h2 {
+    font-family: 'Old Standard TT', serif;
+    font-size: 2.25rem;
+    font-weight: 400;
+    line-height: 2.75rem;
+    margin: 0.5rem 0;
+}
+
+.counterContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-bottom: 2rem;
+}
+
+.counterItem {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.counterItem img {
+    width: 4rem;
+    height: auto;
+    margin-right: 1rem;
+}
+
+.counterNumberContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    margin-left: 1rem; 
+}
+
+.counterNumber {
+    font-family: 'Old Standard TT', serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333;
+    display: block;
+}
+
+.counterLabel {
+    font-family: 'Old Standard TT', serif;
+    font-size: 1rem;
+    color: #666;
+    margin-top: 0.25rem;
+}
+
+.arrow {
+    width: 1rem;
+    height: auto;
+    margin-left: auto; 
+}
+
+
+
+
+.swiper2 {
+    width: 100%;
+    height: 25rem; 
+
+    .swiper-wrapper {
+        display: flex;
+    }
+
+    .swiper-slide {
+        text-align: center;
+        font-size: 1.125rem; 
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .swiper-pagination2 {
+        position: absolute;
+        text-align: center;
+        bottom: 0rem; 
+        left: 0;
+        width: 100%;
+        z-index: 10;
+
+        .swiper-pagination-bullet {
+            width: 0.5rem; 
+            height: 0.5rem; 
+            display: inline-block;
+            border-radius: 50%;
+            background: #BEAD8E; 
+            opacity: 0.7; 
+            margin: 0 0.3rem; 
+        }
+
+        .swiper-pagination-bullet-active {
+            background: #EDEDED; 
+            opacity: 1; 
+        }
     }
 }
