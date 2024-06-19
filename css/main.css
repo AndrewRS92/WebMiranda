@@ -486,4 +486,73 @@
   opacity: 1;
 }
 
+.counterSection {
+  background-color: #f8f8f8;
+  color: black;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.counterSection h3 {
+  font-family: "Archivo", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.counterSection h2 {
+  font-family: "Old Standard TT", serif;
+  font-size: 2.25rem;
+  font-weight: 400;
+  line-height: 2.75rem;
+  margin: 0.5rem 0;
+}
+
+.counterContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.counterItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 1rem 0;
+  width: 100%;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+
+.counterItem img {
+  width: 4rem;
+  height: auto;
+  margin-right: 1rem;
+}
+
+.counterNumber {
+  font-family: "Old Standard TT", serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.counterLabel {
+  font-family: "Old Standard TT", serif;
+  font-size: 1rem;
+  color: #666;
+  margin-left: 1rem;
+  flex: 1;
+}
+
+.arrow {
+  width: 1rem;
+  height: auto;
+  margin-left: 1rem;
+}
+
 /*# sourceMappingURL=main.css.map */
