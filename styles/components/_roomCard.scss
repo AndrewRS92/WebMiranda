@@ -1,0 +1,72 @@
+@import 'mixins';
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@700&display=swap');
+
+
+
+.roomCard {
+    border: 1px solid #eaeaea;
+    border-radius: 0.05rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+
+    .roomCard__imageContainer {
+        position: relative; 
+        .roomImage {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .roomCard_icons {
+            width: 50%; 
+            position: absolute; 
+            bottom: -20px; 
+            left: 50%;
+            transform: translateX(-50%); 
+        }
+    }
+
+}
+.roomCard__details {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.roomCard__title {
+    font-family: 'Old Standard TT', serif;
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+.roomCard__description {
+    font-family: 'Arial', sans-serif;
+    font-size: 0.9em;
+    color: #888888;
+    margin: 10px 0;
+}
+
+.roomCard__info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.roomCard__price {
+    font-family: 'Arial', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    color: #d4a373;
+    margin-right: 20px;
+}
+
+.roomCard__booking {
+    font-family: 'Arial', sans-serif;
+    font-size: 0.9em;
+    color: #888888;
+    text-decoration: none;
+}
+
+
