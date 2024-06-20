@@ -1,15 +1,14 @@
-// Importa las fuentes de Google
 @import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@700&display=swap');
 
-// Define las variables directamente en el archivo de mixins
+
 $font-family-primary: 'Old Standard TT', serif;
 $font-color-primary: #333;
 $font-size-default: 1rem;
 $line-height-default: 1.5rem;
 $margin-bottom-default: 1.5rem;
 
-// Define el mixin
+
 @mixin textInfoDescription(
     $font-family: $font-family-primary, 
     $font-size: $font-size-default, 
