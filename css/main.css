@@ -737,8 +737,7 @@
 
 .roomCard__title {
   font-family: "Old Standard TT", serif;
-  font-size: 1.5em;
-  font-weight: bold;
+  font-size: 0.75em;
   margin: 10px 0;
 }
 
@@ -757,7 +756,7 @@
 }
 
 .roomCard__price {
-  font-family: "Arial", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1em;
   font-weight: bold;
   color: #d4a373;
