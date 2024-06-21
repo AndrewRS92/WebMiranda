@@ -1,4 +1,7 @@
-@mixin headerStyles {
+@import 'mixins';
+
+
+   .header {
     background-color: white;
     color: black;
     padding: 1rem;
@@ -10,7 +13,51 @@
         align-items: center;
         margin: 0 auto;
         padding: 0 1rem;
+
+        &.menu-open {
+          background-color: white;
+        }
+
+        .menu__dropdown {
+            display: none;
+            position: absolute;
+            top: 4.5rem; 
+            right: 0.5rem;
+            left: 0.5rem; 
+            background-color: white; 
+            border: 1px solid #ccc; 
+            border-radius: 4px;
+            z-index: 10;
+
+            ul {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+
+                li {
+                    padding: 10px 20px; 
+
+                    a {
+                        color: #333; 
+                        text-decoration: none; 
+                        display: block;
+
+                        &:hover {
+                            background-color: #f0f0f0; 
+                        }
+                    }
+                }
+            }
+        }
+
+        &.menu-open .menu__dropdown {
+            display: block;
+        }
     }
+    
+
+
+    
 
     .menu__button {
         background: none;
@@ -53,6 +100,6 @@
         }
     }
 }
-.header {
-    @include headerStyles;
-}
+
+
+
