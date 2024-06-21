@@ -22,6 +22,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Archivo:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@700&display=swap");
 .header {
   background-color: white;
   color: black;
@@ -546,13 +552,19 @@
   left: 0;
   right: 0;
   margin-inline: auto;
+  width: 4px !important;
+  height: 4px !important;
 }
 .sectionSlider .swiper-pagination .swiper-pagination-bullet {
   background-color: #ffcc99;
   opacity: 1;
+  width: 1px !important;
+  height: 1px !important;
+  margin: 0 6px;
+  border-radius: 50%;
 }
 .sectionSlider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: white;
+  background-color: white !important;
   opacity: 1;
 }
 
@@ -1252,6 +1264,293 @@
 .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
   background-color: #d4a373;
   color: #fff;
+}
+
+.header {
+  background-color: white;
+  color: black;
+  padding: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+.header .menu__button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.header .menu__button img {
+  height: 1rem;
+}
+.header .header__title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header .header__title .header__logo__img {
+  height: 2rem;
+  text-align: right;
+}
+.header .header__icons {
+  display: flex;
+  align-items: left;
+  text-align: right;
+}
+.header .header__icons .user__button,
+.header .header__icons .search__button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+.header .header__icons .user__button img,
+.header .header__icons .search__button img {
+  height: 2rem;
+}
+
+.sectionHeader {
+  background-color: #333;
+  color: white;
+  padding: 2rem 1rem;
+}
+.sectionHeader__content {
+  margin-bottom: 2rem;
+}
+.sectionHeader__subtitle {
+  font-family: Archivo;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  line-height: 1.125rem;
+  letter-spacing: 0.175rem;
+  text-align: left;
+}
+.sectionHeader__title {
+  font-family: "Old Standard TT", serif;
+  font-size: 3.5rem;
+  font-weight: 400;
+  line-height: 3.75rem;
+  text-align: left;
+}
+.sectionHeader .sectionNav {
+  display: inline-block;
+  float: right;
+  font-size: 1.125rem;
+  background-color: #fff;
+  padding: 0.5rem;
+}
+.sectionHeader .sectionNav__link, .sectionHeader .sectionNav__current {
+  color: black;
+  text-decoration: none;
+}
+.sectionHeader .sectionNav__link:hover {
+  text-decoration: underline;
+}
+.sectionHeader .sectionNav__current {
+  font-weight: bold;
+  color: #ffcc99;
+}
+
+.footer {
+  background-image: url("/images/footer-bg.svg");
+  background-size: cover;
+  background-position: center;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+.footer__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+.footer .footer__logo {
+  margin-bottom: 1rem;
+}
+.footer .infoDescription {
+  font-family: "Old Standard TT", serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+  text-align: left;
+  margin: 1.5rem 1rem 1.5rem 1rem !important;
+}
+.footer .footerSocial {
+  margin-bottom: 1rem;
+}
+.footer__title {
+  font-family: "Old Standard TT", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #222222;
+}
+.footer__contact {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+.footer__contact .footer__icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 0.5rem;
+}
+.footer .footer__list {
+  display: flex;
+}
+.header {
+  background-color: white;
+  color: black;
+  padding: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+.header .menu__button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.header .menu__button img {
+  height: 1rem;
+}
+.header .header__title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header .header__title .header__logo__img {
+  height: 2rem;
+  text-align: right;
+}
+.header .header__icons {
+  display: flex;
+  align-items: left;
+  text-align: right;
+}
+.header .header__icons .user__button,
+.header .header__icons .search__button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+.header .header__icons .user__button img,
+.header .header__icons .search__button img {
+  height: 2rem;
+}
+
+.sectionHome {
+  background-color: #333333;
+  color: #ffffff;
+  padding: 3rem 1.5rem;
+  text-align: center;
+  height: 22rem;
+}
+
+.sectionHome__title {
+  font-family: "Old Standard TT", serif;
+  font-size: 3.5rem;
+  font-weight: 400;
+  line-height: 3.75rem;
+  text-align: left;
+}
+
+.sectionHome__subheading {
+  font-family: Archivo;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  line-height: 1.125rem;
+  letter-spacing: 0.175rem;
+  text-align: left;
+}
+
+.sectionHome__button__primary,
+.sectionHome__button__secondary {
+  padding: 0.75rem 2rem;
+  font-size: 0.75rem;
+  border: none;
+  cursor: pointer;
+  margin: 0.625rem 0.3125rem;
+  display: inline-block;
+}
+
+.sectionHome__button__primary {
+  background-color: #c5a880;
+  color: #333333;
+  color: white;
+  font-family: Archivo;
+  display: block;
+  float: left;
+}
+
+.sectionHome__button__secondary {
+  background-color: transparent;
+  color: white;
+  border: 0.125rem solid gray !important;
+  display: block;
+  clear: both;
+}
+
+.sectionAvailability {
+  background-color: #222222;
+  padding: 2rem 1.5rem;
+  text-align: left;
+  color: #ffffff;
+}
+
+.sectionAvailability__date {
+  margin-bottom: 1.5rem;
+}
+
+.sectionAvailability__label {
+  font-family: Archivo;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  line-height: 1.125rem;
+  letter-spacing: 0.1rem;
+  color: white;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.sectionAvailability__input {
+  font-family: Archivo;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  border: 1px solid #c5a880;
+  background-color: #333333;
+  color: #ffffff;
+  padding: 0.5rem;
+  width: calc(100% - 1rem);
+  margin-bottom: 1.5rem;
+  border-radius: 0.25rem;
+}
+
+.sectionAvailability__button {
+  padding: 0.75rem 2rem;
+  font-size: 0.75rem;
+  background-color: #c5a880;
+  color: #333333;
+  border: none;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -249,15 +249,22 @@
         left: 0;
         right: 0;
         margin-inline: auto; 
+        width: 4px!important;
+        height: 4px!important;
 
         .swiper-pagination-bullet {
             background-color: #ffcc99;
             opacity: 1;
+            width: 1px!important;
+            height: 1px!important;
+            margin: 0 6px;
+            border-radius: 50%;
         }
 
         .swiper-pagination-bullet-active {
-            background-color: white;
+            background-color: white!important;
             opacity: 1;
+            
         }
     }
 }
