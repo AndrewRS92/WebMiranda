@@ -22,3 +22,13 @@ $margin-bottom-default: 1.5rem;
     color: $color;
     margin-bottom: $margin-bottom;
 }
+
+@mixin infoSubtitle() {
+    font-family: 'Archivo', sans-serif;
+    font-size: 0.850rem;
+    font-weight: 700;
+    line-height: 1.25rem;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    color: #999;
+}
