@@ -3,13 +3,6 @@
 @import '../components/mixins';
 @import '../components/footer';
 
-.header {
-    @include headerStyles;
-}
-
-.sectionHeader {
-    @include sectionHeaderStyles;
-}
 
 .sectionVideoText {
     padding: 2rem 1rem;
@@ -379,7 +372,7 @@
         width: 100%;
         z-index: 10;
 
-        .swiper-pagination-bullet {
+        .swiper-pagination2-bullet {
             width: 0.5rem; 
             height: 0.5rem; 
             display: inline-block;
@@ -389,7 +382,7 @@
             margin: 0 0.3rem; 
         }
 
-        .swiper-pagination-bullet-active {
+        .swiper-pagination2-bullet-active {
             background: #EDEDED; 
             opacity: 1; 
         }
