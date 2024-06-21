@@ -1444,7 +1444,7 @@
   padding: 0.75rem 2rem;
   font-size: 0.75rem;
   background-color: #c5a880;
-  color: #333333;
+  color: white;
   border: none;
   cursor: pointer;
   display: block;
@@ -1452,4 +1452,14 @@
   max-width: 300px;
   margin: 0 auto;
   text-align: center;
+}
+
+.aboutInfo h2 {
+  font-family: "Archivo", sans-serif;
+  font-size: 0.85rem;
+  font-weight: 700;
+  line-height: 1.25rem;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  color: #999;
 }/*# sourceMappingURL=styles.css.map */
