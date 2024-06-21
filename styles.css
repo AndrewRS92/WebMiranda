@@ -40,6 +40,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Archivo:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@700&display=swap");
 .header {
   background-color: white;
   color: black;
@@ -79,6 +83,7 @@
   color: #333;
   text-decoration: none;
   display: block;
+  font-family: Archivo;
 }
 .header__container .menu__dropdown ul li a:hover {
   background-color: #f0f0f0;
@@ -202,6 +207,7 @@
   color: #333;
   text-decoration: none;
   display: block;
+  font-family: Archivo;
 }
 .header__container .menu__dropdown ul li a:hover {
   background-color: #f0f0f0;
@@ -286,23 +292,23 @@
   color: #ffcc99;
 }
 
-footer {
+.footer {
   background-image: url("/images/footer-bg.svg");
   background-size: cover;
   background-position: center;
   padding: 2rem 1rem;
   text-align: center;
 }
-footer__content {
+.footer__content {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 0.5rem;
 }
-footer .footer__logo {
+.footer .footer__logo {
   margin-bottom: 1rem;
 }
-footer .infoDescription {
+.footer .infoDescription {
   font-family: "Old Standard TT", serif;
   font-size: 1rem;
   line-height: 1.5rem;
@@ -311,27 +317,27 @@ footer .infoDescription {
   text-align: left;
   margin: 1.5rem 1rem 1.5rem 1rem !important;
 }
-footer .footerSocial {
+.footer .footerSocial {
   margin-bottom: 1rem;
 }
-footer__title {
+.footer__title {
   font-family: "Old Standard TT", sans-serif;
   font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
   color: #222222;
 }
-footer__contact {
+.footer__contact {
   display: flex;
   align-items: center;
   margin-bottom: 1.5rem;
 }
-footer__contact .footer__icon {
+.footer__contact .footer__icon {
   width: 24px;
   height: 24px;
   margin-right: 0.5rem;
 }
-footer .footer__list {
+.footer .footer__list {
   display: flex;
 }
 .sectionVideoText {
@@ -673,23 +679,23 @@ footer .footer__list {
   opacity: 1;
 }
 
-footer {
+.footer {
   background-image: url("/images/footer-bg.svg");
   background-size: cover;
   background-position: center;
   padding: 2rem 1rem;
   text-align: center;
 }
-footer__content {
+.footer__content {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 0.5rem;
 }
-footer .footer__logo {
+.footer .footer__logo {
   margin-bottom: 1rem;
 }
-footer .infoDescription {
+.footer .infoDescription {
   font-family: "Old Standard TT", serif;
   font-size: 1rem;
   line-height: 1.5rem;
@@ -698,27 +704,27 @@ footer .infoDescription {
   text-align: left;
   margin: 1.5rem 1rem 1.5rem 1rem !important;
 }
-footer .footerSocial {
+.footer .footerSocial {
   margin-bottom: 1rem;
 }
-footer__title {
+.footer__title {
   font-family: "Old Standard TT", sans-serif;
   font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
   color: #222222;
 }
-footer__contact {
+.footer__contact {
   display: flex;
   align-items: center;
   margin-bottom: 1.5rem;
 }
-footer__contact .footer__icon {
+.footer__contact .footer__icon {
   width: 24px;
   height: 24px;
   margin-right: 0.5rem;
 }
-footer .footer__list {
+.footer .footer__list {
   display: flex;
 }
 .roomCard {
@@ -875,6 +881,7 @@ footer .footer__list {
   color: #333;
   text-decoration: none;
   display: block;
+  font-family: Archivo;
 }
 .header__container .menu__dropdown ul li a:hover {
   background-color: #f0f0f0;
@@ -959,23 +966,23 @@ footer .footer__list {
   color: #ffcc99;
 }
 
-footer {
+.footer {
   background-image: url("/images/footer-bg.svg");
   background-size: cover;
   background-position: center;
   padding: 2rem 1rem;
   text-align: center;
 }
-footer__content {
+.footer__content {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 0.5rem;
 }
-footer .footer__logo {
+.footer .footer__logo {
   margin-bottom: 1rem;
 }
-footer .infoDescription {
+.footer .infoDescription {
   font-family: "Old Standard TT", serif;
   font-size: 1rem;
   line-height: 1.5rem;
@@ -984,29 +991,144 @@ footer .infoDescription {
   text-align: left;
   margin: 1.5rem 1rem 1.5rem 1rem !important;
 }
-footer .footerSocial {
+.footer .footerSocial {
   margin-bottom: 1rem;
 }
-footer__title {
+.footer__title {
   font-family: "Old Standard TT", sans-serif;
   font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
   color: #222222;
 }
-footer__contact {
+.footer__contact {
   display: flex;
   align-items: center;
   margin-bottom: 1.5rem;
 }
-footer__contact .footer__icon {
+.footer__contact .footer__icon {
   width: 24px;
   height: 24px;
   margin-right: 0.5rem;
 }
-footer .footer__list {
+.footer .footer__list {
   display: flex;
 }
+.roomCard {
+  border: 1px solid #eaeaea;
+  border-radius: 0.05rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+.roomCard .roomCard__imageContainer {
+  position: relative;
+}
+.roomCard .roomCard__imageContainer .roomImage {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.roomCard .roomCard__imageContainer .roomCard_icons {
+  width: 50%;
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.roomCard__details {
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+.roomCard__title {
+  font-family: "Old Standard TT", serif;
+  font-size: 1em;
+  margin: 10px 0;
+}
+
+.roomCard__description {
+  font-family: "Arial", sans-serif;
+  font-size: 0.9em;
+  color: #888888;
+  margin: 10px 0;
+}
+
+.roomCard__info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.roomCard__price {
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  color: #d4a373;
+  margin-right: 20px;
+}
+
+.roomCard__booking {
+  font-family: "Arial", sans-serif;
+  font-size: 0.9em;
+  color: #888888;
+  text-decoration: none;
+}
+
+.swiper {
+  width: 100%;
+  overflow: hidden;
+}
+
+.swiper-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.swiper-pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  bottom: 0;
+  position: relative !important;
+  width: 100%;
+}
+
+.swiper-pagination span {
+  display: inline-block;
+  margin: 0 0.3125rem;
+  cursor: pointer;
+  padding: 0.625rem;
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  width: 1.25rem;
+  height: 1.25rem;
+  line-height: 1.25rem;
+  text-align: center;
+  border-radius: 0.3125rem;
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+  width: 0.75rem;
+  height: 0.75rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  color: #000;
+}
+
+.swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: #d4a373;
+  color: #fff;
+}
+
 .swiper {
   width: 100%;
   overflow: hidden;
@@ -1098,6 +1220,7 @@ footer .footer__list {
   color: #333;
   text-decoration: none;
   display: block;
+  font-family: Archivo;
 }
 .header__container .menu__dropdown ul li a:hover {
   background-color: #f0f0f0;
@@ -1182,23 +1305,23 @@ footer .footer__list {
   color: #ffcc99;
 }
 
-footer {
+.footer {
   background-image: url("/images/footer-bg.svg");
   background-size: cover;
   background-position: center;
   padding: 2rem 1rem;
   text-align: center;
 }
-footer__content {
+.footer__content {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 0.5rem;
 }
-footer .footer__logo {
+.footer .footer__logo {
   margin-bottom: 1rem;
 }
-footer .infoDescription {
+.footer .infoDescription {
   font-family: "Old Standard TT", serif;
   font-size: 1rem;
   line-height: 1.5rem;
@@ -1207,27 +1330,27 @@ footer .infoDescription {
   text-align: left;
   margin: 1.5rem 1rem 1.5rem 1rem !important;
 }
-footer .footerSocial {
+.footer .footerSocial {
   margin-bottom: 1rem;
 }
-footer__title {
+.footer__title {
   font-family: "Old Standard TT", sans-serif;
   font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
   color: #222222;
 }
-footer__contact {
+.footer__contact {
   display: flex;
   align-items: center;
   margin-bottom: 1.5rem;
 }
-footer__contact .footer__icon {
+.footer__contact .footer__icon {
   width: 24px;
   height: 24px;
   margin-right: 0.5rem;
 }
-footer .footer__list {
+.footer .footer__list {
   display: flex;
 }
 .sectionHome {
