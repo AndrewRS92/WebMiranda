@@ -8,16 +8,6 @@
 @import '../components/mixins';
 @import '../components/footer';
 
-.header {
-    @include headerStyles;
-}
-.sectionHeader {
-    @include sectionHeaderStyles;
-}
-
-
-
-
 
 .swiper {
     width: 100%;

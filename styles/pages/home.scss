@@ -8,10 +8,6 @@
 @import '../components/mixins';
 @import '../components/footer';
 
-.header {
-    @include headerStyles;
-}
-
 .sectionHome {
     background-color: #333333; 
     color: #ffffff; 
