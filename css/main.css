@@ -665,7 +665,7 @@
   width: 100%;
   z-index: 10;
 }
-.swiper2 .swiper-pagination2 .swiper-pagination2-bullet {
+.swiper2 .swiper-pagination2 .swiper-pagination-bullet {
   width: 0.5rem;
   height: 0.5rem;
   display: inline-block;
@@ -674,7 +674,7 @@
   opacity: 0.7;
   margin: 0 0.3rem;
 }
-.swiper2 .swiper-pagination2 .swiper-pagination2-bullet-active {
+.swiper2 .swiper-pagination2 .swiper-pagination-bullet-active {
   background: #EDEDED;
   opacity: 1;
 }
